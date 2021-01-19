@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2A7E2A525B6DA7600776311 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A7E2A425B6DA7600776311 /* AppDelegate.swift */; };
+		C2A7E2A725B6DA7600776311 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A7E2A625B6DA7600776311 /* SceneDelegate.swift */; };
+		C2A7E2A925B6DA7600776311 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A7E2A825B6DA7600776311 /* ViewController.swift */; };
+		C2A7E2AC25B6DA7600776311 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2A7E2AA25B6DA7600776311 /* Main.storyboard */; };
+		C2A7E2AE25B6DA7A00776311 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2A7E2AD25B6DA7A00776311 /* Assets.xcassets */; };
+		C2A7E2B125B6DA7A00776311 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2A7E2AF25B6DA7A00776311 /* LaunchScreen.storyboard */; };
+		C2A7E2BC25B6DA7B00776311 /* SeaMartAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A7E2BB25B6DA7B00776311 /* SeaMartAppTests.swift */; };
+		C2A7E2C725B6DA7B00776311 /* SeaMartAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A7E2C625B6DA7B00776311 /* SeaMartAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2A7E2B825B6DA7B00776311 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2A7E29925B6DA7500776311 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2A7E2A025B6DA7500776311;
+			remoteInfo = SeaMartApp;
+		};
+		C2A7E2C325B6DA7B00776311 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2A7E29925B6DA7500776311 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2A7E2A025B6DA7500776311;
+			remoteInfo = SeaMartApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2A7E2A125B6DA7500776311 /* SeaMartApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeaMartApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2A7E2A425B6DA7600776311 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2A7E2A625B6DA7600776311 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C2A7E2A825B6DA7600776311 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2A7E2AB25B6DA7600776311 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2A7E2AD25B6DA7A00776311 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2A7E2B025B6DA7A00776311 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2A7E2B225B6DA7A00776311 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2A7E2B725B6DA7B00776311 /* SeaMartAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeaMartAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2A7E2BB25B6DA7B00776311 /* SeaMartAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaMartAppTests.swift; sourceTree = "<group>"; };
+		C2A7E2BD25B6DA7B00776311 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2A7E2C225B6DA7B00776311 /* SeaMartAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeaMartAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2A7E2C625B6DA7B00776311 /* SeaMartAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaMartAppUITests.swift; sourceTree = "<group>"; };
+		C2A7E2C825B6DA7B00776311 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2A7E29E25B6DA7500776311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A7E2B425B6DA7B00776311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A7E2BF25B6DA7B00776311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2A7E29825B6DA7500776311 = {
+			isa = PBXGroup;
+			children = (
+				C2A7E2A325B6DA7500776311 /* SeaMartApp */,
+				C2A7E2BA25B6DA7B00776311 /* SeaMartAppTests */,
+				C2A7E2C525B6DA7B00776311 /* SeaMartAppUITests */,
+				C2A7E2A225B6DA7500776311 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2A7E2A225B6DA7500776311 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2A7E2A125B6DA7500776311 /* SeaMartApp.app */,
+				C2A7E2B725B6DA7B00776311 /* SeaMartAppTests.xctest */,
+				C2A7E2C225B6DA7B00776311 /* SeaMartAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2A7E2A325B6DA7500776311 /* SeaMartApp */ = {
+			isa = PBXGroup;
+			children = (
+				C2A7E2A425B6DA7600776311 /* AppDelegate.swift */,
+				C2A7E2A625B6DA7600776311 /* SceneDelegate.swift */,
+				C2A7E2A825B6DA7600776311 /* ViewController.swift */,
+				C2A7E2AA25B6DA7600776311 /* Main.storyboard */,
+				C2A7E2AD25B6DA7A00776311 /* Assets.xcassets */,
+				C2A7E2AF25B6DA7A00776311 /* LaunchScreen.storyboard */,
+				C2A7E2B225B6DA7A00776311 /* Info.plist */,
+			);
+			path = SeaMartApp;
+			sourceTree = "<group>";
+		};
+		C2A7E2BA25B6DA7B00776311 /* SeaMartAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2A7E2BB25B6DA7B00776311 /* SeaMartAppTests.swift */,
+				C2A7E2BD25B6DA7B00776311 /* Info.plist */,
+			);
+			path = SeaMartAppTests;
+			sourceTree = "<group>";
+		};
+		C2A7E2C525B6DA7B00776311 /* SeaMartAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2A7E2C625B6DA7B00776311 /* SeaMartAppUITests.swift */,
+				C2A7E2C825B6DA7B00776311 /* Info.plist */,
+			);
+			path = SeaMartAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2A7E2A025B6DA7500776311 /* SeaMartApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2A7E2CB25B6DA7B00776311 /* Build configuration list for PBXNativeTarget "SeaMartApp" */;
+			buildPhases = (
+				C2A7E29D25B6DA7500776311 /* Sources */,
+				C2A7E29E25B6DA7500776311 /* Frameworks */,
+				C2A7E29F25B6DA7500776311 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeaMartApp;
+			productName = SeaMartApp;
+			productReference = C2A7E2A125B6DA7500776311 /* SeaMartApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2A7E2B625B6DA7B00776311 /* SeaMartAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2A7E2CE25B6DA7B00776311 /* Build configuration list for PBXNativeTarget "SeaMartAppTests" */;
+			buildPhases = (
+				C2A7E2B325B6DA7B00776311 /* Sources */,
+				C2A7E2B425B6DA7B00776311 /* Frameworks */,
+				C2A7E2B525B6DA7B00776311 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2A7E2B925B6DA7B00776311 /* PBXTargetDependency */,
+			);
+			name = SeaMartAppTests;
+			productName = SeaMartAppTests;
+			productReference = C2A7E2B725B6DA7B00776311 /* SeaMartAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2A7E2C125B6DA7B00776311 /* SeaMartAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2A7E2D125B6DA7B00776311 /* Build configuration list for PBXNativeTarget "SeaMartAppUITests" */;
+			buildPhases = (
+				C2A7E2BE25B6DA7B00776311 /* Sources */,
+				C2A7E2BF25B6DA7B00776311 /* Frameworks */,
+				C2A7E2C025B6DA7B00776311 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2A7E2C425B6DA7B00776311 /* PBXTargetDependency */,
+			);
+			name = SeaMartAppUITests;
+			productName = SeaMartAppUITests;
+			productReference = C2A7E2C225B6DA7B00776311 /* SeaMartAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2A7E29925B6DA7500776311 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					C2A7E2A025B6DA7500776311 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					C2A7E2B625B6DA7B00776311 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = C2A7E2A025B6DA7500776311;
+					};
+					C2A7E2C125B6DA7B00776311 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = C2A7E2A025B6DA7500776311;
+					};
+				};
+			};
+			buildConfigurationList = C2A7E29C25B6DA7500776311 /* Build configuration list for PBXProject "SeaMartApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2A7E29825B6DA7500776311;
+			productRefGroup = C2A7E2A225B6DA7500776311 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2A7E2A025B6DA7500776311 /* SeaMartApp */,
+				C2A7E2B625B6DA7B00776311 /* SeaMartAppTests */,
+				C2A7E2C125B6DA7B00776311 /* SeaMartAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2A7E29F25B6DA7500776311 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A7E2B125B6DA7A00776311 /* LaunchScreen.storyboard in Resources */,
+				C2A7E2AE25B6DA7A00776311 /* Assets.xcassets in Resources */,
+				C2A7E2AC25B6DA7600776311 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A7E2B525B6DA7B00776311 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A7E2C025B6DA7B00776311 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2A7E29D25B6DA7500776311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A7E2A925B6DA7600776311 /* ViewController.swift in Sources */,
+				C2A7E2A525B6DA7600776311 /* AppDelegate.swift in Sources */,
+				C2A7E2A725B6DA7600776311 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A7E2B325B6DA7B00776311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A7E2BC25B6DA7B00776311 /* SeaMartAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A7E2BE25B6DA7B00776311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A7E2C725B6DA7B00776311 /* SeaMartAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2A7E2B925B6DA7B00776311 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2A7E2A025B6DA7500776311 /* SeaMartApp */;
+			targetProxy = C2A7E2B825B6DA7B00776311 /* PBXContainerItemProxy */;
+		};
+		C2A7E2C425B6DA7B00776311 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2A7E2A025B6DA7500776311 /* SeaMartApp */;
+			targetProxy = C2A7E2C325B6DA7B00776311 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2A7E2AA25B6DA7600776311 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2A7E2AB25B6DA7600776311 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2A7E2AF25B6DA7A00776311 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2A7E2B025B6DA7A00776311 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2A7E2C925B6DA7B00776311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2A7E2CA25B6DA7B00776311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2A7E2CC25B6DA7B00776311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 999U3TAW93;
+				INFOPLIST_FILE = SeaMartApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = taj.SeaMartApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2A7E2CD25B6DA7B00776311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 999U3TAW93;
+				INFOPLIST_FILE = SeaMartApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = taj.SeaMartApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C2A7E2CF25B6DA7B00776311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 999U3TAW93;
+				INFOPLIST_FILE = SeaMartAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = taj.SeaMartAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeaMartApp.app/SeaMartApp";
+			};
+			name = Debug;
+		};
+		C2A7E2D025B6DA7B00776311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 999U3TAW93;
+				INFOPLIST_FILE = SeaMartAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = taj.SeaMartAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeaMartApp.app/SeaMartApp";
+			};
+			name = Release;
+		};
+		C2A7E2D225B6DA7B00776311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 999U3TAW93;
+				INFOPLIST_FILE = SeaMartAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = taj.SeaMartAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SeaMartApp;
+			};
+			name = Debug;
+		};
+		C2A7E2D325B6DA7B00776311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 999U3TAW93;
+				INFOPLIST_FILE = SeaMartAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = taj.SeaMartAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SeaMartApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2A7E29C25B6DA7500776311 /* Build configuration list for PBXProject "SeaMartApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2A7E2C925B6DA7B00776311 /* Debug */,
+				C2A7E2CA25B6DA7B00776311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2A7E2CB25B6DA7B00776311 /* Build configuration list for PBXNativeTarget "SeaMartApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2A7E2CC25B6DA7B00776311 /* Debug */,
+				C2A7E2CD25B6DA7B00776311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2A7E2CE25B6DA7B00776311 /* Build configuration list for PBXNativeTarget "SeaMartAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2A7E2CF25B6DA7B00776311 /* Debug */,
+				C2A7E2D025B6DA7B00776311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2A7E2D125B6DA7B00776311 /* Build configuration list for PBXNativeTarget "SeaMartAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2A7E2D225B6DA7B00776311 /* Debug */,
+				C2A7E2D325B6DA7B00776311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2A7E29925B6DA7500776311 /* Project object */;
+}
