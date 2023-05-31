@@ -18,8 +18,23 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>tez</string>
+		<string>phonepe</string>
+		<string>paytmmp</string>
+		<string>credpay</string>
+	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict/>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Allow to access the location for get product.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Allow to access the location for better experience.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Allow to access the location for get product.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
