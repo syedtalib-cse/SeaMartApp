@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "733C242C-617F-4E5F-A905-AF85DBD6610D"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3F196E86-EF92-4E95-8153-A9D3BB05809B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeaMartApp/Controller/CategoryVC/CategoryViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "237"
+            endingLineNumber = "237"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "007D2994-7586-4036-AA47-73D34DB15061"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeaMartApp/Controller/ProfileVC/AddNewAddressViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "329"
+            endingLineNumber = "329"
+            landmarkName = "updateDeliveryAddressPostData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EC0056A6-24C7-4EA1-BDC8-71D48A3CB1B7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeaMartApp/Controller/ProfileVC/AddNewAddressViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "344"
+            endingLineNumber = "344"
+            landmarkName = "updateDeliveryAddressPostData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EC0056A6-24C7-4EA1-BDC8-71D48A3CB1B7 - 95a32ad9f7bd9960"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;SeaMartApp.AddNewAddressModel, Swift.Error&gt;) -&gt; () in SeaMartApp.AddNewAddressViewController.updateDeliveryAddressPostData() -&gt; ()"
+                  moduleName = "SeaMartApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mehtabalam/Desktop/Amaravati/SeaMartApp/SeaMartApp/Controller/ProfileVC/AddNewAddressViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "334"
+                  endingLineNumber = "334"
+                  offsetFromSymbolStart = "318">
+               </Location>
+               <Location
+                  uuid = "EC0056A6-24C7-4EA1-BDC8-71D48A3CB1B7 - 95a32ad9f7bd9960"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;SeaMartApp.AddNewAddressModel, Swift.Error&gt;) -&gt; () in SeaMartApp.AddNewAddressViewController.updateDeliveryAddressPostData() -&gt; ()"
+                  moduleName = "SeaMartApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mehtabalam/Desktop/Amaravati/SeaMartApp/SeaMartApp/Controller/ProfileVC/AddNewAddressViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "334"
+                  endingLineNumber = "334"
+                  offsetFromSymbolStart = "353">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BBC69417-513C-43A9-A18E-623F83DB6F7D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeaMartApp/Controller/Location/SelectYourLocationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "227"
+            endingLineNumber = "227"
+            landmarkName = "reverseGeocoding(marker:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C7FECD23-1315-4480-ABDF-CAF4D73E18F4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeaMartApp/Controller/Location/SelectYourLocationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "215"
+            endingLineNumber = "215"
+            landmarkName = "reverseGeocoding(marker:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D5994C08-AB68-41F6-9F46-CF2F0793B593"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeaMartApp/Controller/Location/SelectYourLocationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "216"
+            endingLineNumber = "216"
+            landmarkName = "reverseGeocoding(marker:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E2ABD023-066E-44CC-97EB-05378365F80A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeaMartApp/Controller/Location/SelectYourLocationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "224"
+            endingLineNumber = "224"
+            landmarkName = "reverseGeocoding(marker:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7661FF87-8B95-4CE7-BBED-9E1FB09A78EF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeaMartApp/Controller/Location/SelectYourLocationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "228"
+            endingLineNumber = "228"
+            landmarkName = "reverseGeocoding(marker:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5C56C730-A663-4D2D-8332-A2FAA206A484"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeaMartApp/Controller/Location/SelectYourLocationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "locationManager(_:didUpdateLocations:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7F4106E9-FEBB-41BE-8167-1F54E015D854"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeaMartApp/Controller/AddtoCartVC/AddToCartViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "96A0059E-AAE7-456E-B480-764272C1C401"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeaMartApp/Controller/BestDealDetailVC/BestDealDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "257"
+            endingLineNumber = "257"
+            landmarkName = "getAttributedProductDetailByPostData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "96A0059E-AAE7-456E-B480-764272C1C401 - fd0320958362225e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;SeaMartApp.ProductAttributeAllDetails, Swift.Error&gt;) -&gt; () in SeaMartApp.BestDealDetailViewController.getAttributedProductDetailByPostData() -&gt; ()"
+                  moduleName = "SeaMartApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mehtabalam/Desktop/Amaravati/SeaMartApp/SeaMartApp/Controller/BestDealDetailVC/BestDealDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "258"
+                  endingLineNumber = "258"
+                  offsetFromSymbolStart = "323">
+               </Location>
+               <Location
+                  uuid = "96A0059E-AAE7-456E-B480-764272C1C401 - fd0320958362225e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;SeaMartApp.ProductAttributeAllDetails, Swift.Error&gt;) -&gt; () in SeaMartApp.BestDealDetailViewController.getAttributedProductDetailByPostData() -&gt; ()"
+                  moduleName = "SeaMartApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mehtabalam/Desktop/Amaravati/SeaMartApp/SeaMartApp/Controller/BestDealDetailVC/BestDealDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "258"
+                  endingLineNumber = "258"
+                  offsetFromSymbolStart = "351">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4F82D024-BC21-4C71-979A-7F1D093F540E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeaMartApp/Controller/BestDealDetailVC/BestDealDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "449"
+            endingLineNumber = "449"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D59AA5DC-621B-423D-87DD-0959229B49FB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeaMartApp/View/BestDealDetailCell/BestDealDetailTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "595CF1D1-AB70-4695-8609-80DF516C2AAE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeaMartApp/Controller/BestDealDetailVC/BestDealDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "258"
+            endingLineNumber = "258"
+            landmarkName = "getAttributedProductDetailByPostData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "595CF1D1-AB70-4695-8609-80DF516C2AAE - fd0320958362225e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;SeaMartApp.ProductAttributeAllDetails, Swift.Error&gt;) -&gt; () in SeaMartApp.BestDealDetailViewController.getAttributedProductDetailByPostData() -&gt; ()"
+                  moduleName = "SeaMartApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mehtabalam/Desktop/Amaravati/SeaMartApp/SeaMartApp/Controller/BestDealDetailVC/BestDealDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "258"
+                  endingLineNumber = "258"
+                  offsetFromSymbolStart = "413">
+               </Location>
+               <Location
+                  uuid = "595CF1D1-AB70-4695-8609-80DF516C2AAE - fd0320958362225e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;SeaMartApp.ProductAttributeAllDetails, Swift.Error&gt;) -&gt; () in SeaMartApp.BestDealDetailViewController.getAttributedProductDetailByPostData() -&gt; ()"
+                  moduleName = "SeaMartApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mehtabalam/Desktop/Amaravati/SeaMartApp/SeaMartApp/Controller/BestDealDetailVC/BestDealDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "258"
+                  endingLineNumber = "258"
+                  offsetFromSymbolStart = "441">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
